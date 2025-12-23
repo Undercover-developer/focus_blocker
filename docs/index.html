@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Focus Blocker — Stay Focused Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Focus Blocker helps you block distracting or harmful websites using custom rules and schedules." />
+  <style>
+    :root {
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#5a5f6e;
+      --border:#e5e7eb;
+      --blue:#536dfe;
+      --blue-hover:#3f4fd7;
+      --green:#3cc196;
+      --green-hover:#2a916b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 16px;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    .subtitle {
+      color: var(--muted);
+      max-width: 720px;
+      font-size: 18px;
+    }
+    .cta {
+      display: inline-flex;
+      gap: 12px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .btn-primary {
+      background: var(--green);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--green-hover);
+    }
+    .btn-secondary {
+      background: var(--blue);
+      color: #fff;
+    }
+    .btn-secondary:hover {
+      background: var(--blue-hover);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Focus Blocker</h1>
+      <p class="subtitle">
+        Focus Blocker helps you stay productive by blocking distracting or harmful websites
+        using simple rules and optional schedules — all locally, with privacy first.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://chrome.google.com/webstore" target="_blank" rel="noopener">
+          Install from Chrome Web Store
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/Undercover-developer/focus_blocker/issues" target="_blank" rel="noopener">
+          Report an Issue
+        </a>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>What Focus Blocker Does</h2>
+      <ul>
+        <li>Blocks websites you choose using domains, patterns, or categories</li>
+        <li>Supports optional schedules to block sites during specific times</li>
+        <li>Works instantly without slowing down your browser</li>
+        <li>No accounts, no tracking, no external servers</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Why Install Focus Blocker</h2>
+      <ul>
+        <li>Stay focused during work, study, or deep-focus sessions</li>
+        <li>Reduce distractions from social media, news, or gambling sites</li>
+        <li>Keep all data on your device - privacy-first by design</li>
+        <li>Free, lightweight, and transparent</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Privacy</h2>
+      <p>
+        Focus Blocker does not collect or transmit personal data.
+        All settings are stored locally in your browser.
+      </p>
+      <p>
+        <a href="./privacy.html">Read the full Privacy Policy →</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Need help or want to suggest a feature?
+        Visit the <a href="https://github.com/Undercover-developer/focus_blocker">support repository</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
