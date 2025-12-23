@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a problem with Focus Blocker
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+      placeholder: "Example: Schedule doesn’t apply after restarting Chrome..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Options
+        2. Set schedule...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      placeholder: "Example: 1.0.0"
+  - type: input
+    id: chrome
+    attributes:
+      label: Chrome version
+      placeholder: "Example: 121.0.x"
